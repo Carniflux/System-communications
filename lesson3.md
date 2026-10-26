@@ -72,7 +72,7 @@
     "event_name":    { "enum": ["TaskCompleted"] },
     "produced_at":   { "type": "string" },
 
-    "payload": { "$ref": "#/definitions/payload" }
+    "payload": { "$ref": "#/definitions/event_data" }
   },
 
   "required": [
